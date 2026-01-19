@@ -1,7 +1,11 @@
-<h1>Eventos</h1>
-<app-eventos></app-eventos>
+<app-Nav></app-Nav>
 
-<h1>Palestrantes</h1>
-<app-palestrantes></app-palestrantes>
+<div class="container">
+    
+    <router-outlet></router-outlet>
 
-<router-outlet></router-outlet>
+</div>
+
+<ngx-spinner type="ball-scale-multiple">
+    <p style ="font-size: 20px; color: black;"> Carregando ...</p>
+</ngx-spinner>
